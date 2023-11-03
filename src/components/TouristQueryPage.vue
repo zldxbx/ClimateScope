@@ -1,7 +1,7 @@
 <template>
-    <div class="QueryPage">
+    <div class="TouristQueryPage">
       <back-button class="back-button" @click="GoBack">←</back-button>
-      <h1>Admin Query Page</h1>
+      <h1>Tourist Query Page</h1>
       <!-- 注册表单的内容 -->
       <div>
       <button @click="Query1">Query1</button>
@@ -15,17 +15,13 @@
       <div>
       <button @click="Query4">Query4</button>
       </div>
-      <div>
-      <button @click="retrieval">Data retrieval</button>
-      </div>
-      
     </div>
     
   </template>
   
   <script>
   export default {
-    name: 'QueryPage',
+    name: 'TouristQueryPage',
     methods: {
       Query1(){
           alert('You will be redirected to query1 window！');
@@ -43,9 +39,6 @@
           alert('You will be redirected to query4 window！');
         //   this.$router.push({ name: 'AdminLogin' });
       },
-      retrieval(){
-          this.$router.push({ name: 'Retrieval' });
-      },
       GoBack(){
         this.$router.push({ name: 'AdminLogin' });
     }
@@ -54,7 +47,7 @@
   </script>
   
   <style scoped>
-  .QueryPage {
+  .TouristQueryPage {
     width: 1300px;
     margin: auto;
     text-align: center;

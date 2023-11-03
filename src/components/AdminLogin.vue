@@ -41,7 +41,7 @@ export default {
       }
       else{
         alert('Welcome tourist, You will be redirected to Tourist Query Page！')
-        this.$router.push({ name: 'QueryPage' });
+        this.$router.push({ name: 'TouristQueryPage' });
         return;
       }
         
