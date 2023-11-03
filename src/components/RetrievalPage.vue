@@ -7,7 +7,7 @@
   
   <script>
   export default {
-    name: 'Retrieval',
+    name: 'RetrievalPage',
     methods: {
       GoBack(){
           this.$router.push({ name: 'QueryPage' });
@@ -20,7 +20,7 @@
   .Retrieval {
     width: 1300px;
     margin: auto;
-    text-align: Top;
+    text-align: center;
   }
   .back-button {
     position: absolute;

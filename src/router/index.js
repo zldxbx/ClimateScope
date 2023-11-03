@@ -3,7 +3,7 @@ import AdminLogin from '../components/AdminLogin.vue';
 import AdminRegister from '../components/AdminRegister.vue';
 import QueryPage from '../components/QueryPage.vue';
 import TouristQueryPage from '../components/TouristQueryPage.vue';
-import Retrieval from '../components/Retrieval.vue';
+import RetrievalPage from '../components/RetrievalPage.vue';
 
 const routes = [
   {
@@ -17,9 +17,9 @@ const routes = [
     component: QueryPage
   },
   {
-    path: '/Retrieval',
-    name: 'Retrieval',
-    component: Retrieval
+    path: '/RetrievalPage',
+    name: 'RetrievalPage',
+    component: RetrievalPage
   },
   {
     path: '/TouristQueryPage',

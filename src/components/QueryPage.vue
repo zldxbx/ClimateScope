@@ -16,7 +16,7 @@
       <button @click="Query4">Query4</button>
       </div>
       <div>
-      <button @click="retrieval">Data retrieval</button>
+      <button @click="retrievalpage">Data retrieval</button>
       </div>
       
     </div>
@@ -43,8 +43,8 @@
           alert('You will be redirected to query4 window！');
         //   this.$router.push({ name: 'AdminLogin' });
       },
-      retrieval(){
-          this.$router.push({ name: 'Retrieval' });
+      retrievalpage(){
+          this.$router.push({ name: 'RetrievalPage' });
       },
       GoBack(){
         this.$router.push({ name: 'AdminLogin' });
